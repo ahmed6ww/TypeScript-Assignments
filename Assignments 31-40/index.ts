@@ -1,4 +1,4 @@
-/*31.No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
+//31.No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
 
 let users: string[] = [`Ahmed`, `Shayan`, `Ammar`];
 function check() {
@@ -14,20 +14,20 @@ check();
 users.splice(0, 3);
 check();
 
-/*32.Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
+//32.Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone has a unique username.
 
 let current_users:string[]=[`Ahmed`,`Ammar`,`Shayan`,`Daniel`,`Martin`];
 let new_users:string[]=[`Daniel`,`Martin`,`Ali`,`Moiz`,`Robert`]
-let current_user1=A
-    if(new_users.includes(current_list)){
+let current_user1
+    if(new_users!=current_users){
          console.log(`The user name is available`)
     }
     else{
         console.log(`You will need to enter a new username.`)
-    }*/
+    }
 
 
-//34.Pizzas: Think of at least three kinds of your favorite pizza. Store these pizza names in a array, and then use a for loop to print the name of each pizza.
+/*34.Pizzas: Think of at least three kinds of your favorite pizza. Store these pizza names in a array, and then use a for loop to print the name of each pizza.
 
 let fav_pizzas: string[] = [`Margherita Pizza`, `Pepperoni Pizza`, `BBQ Chicken Pizza`]
 for (let pizza in fav_pizzas) {
@@ -111,4 +111,4 @@ function make_album(artist:string,albumTitle:string,tracks:any=`Not mentioned`){
 }
 make_album(`KSHMR`,`Harmonica Andromeda`)
 make_album(`Avicii`,`True`)
-make_album(`Martin Garrix`,`Sentio`,11)
+make_album(`Martin Garrix`,`Sentio`,11)*/
