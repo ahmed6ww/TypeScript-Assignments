@@ -91,6 +91,6 @@ console.log(`Number of guests invited ${invitation}`);
 
 //20.Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items.
 
-let languages: string[] = [`French`, `German`, `Latin`, `Spanish`, `Russian`]
+let languages: string[] = [`French`, `German`, `Latin`, `Spanish`, `Russian`,`Urdu`]
 languages.sort();
 console.log(languages);
