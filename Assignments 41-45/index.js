@@ -35,4 +35,5 @@ function car_info(manufacturer, model) {
     };
     return console.log(car);
 }
-car_info(`Audi`, 2456799);
+car_info(`Audi`, `R8`);
+car_info(`Mercedes-Benz`, `S 580e`);
