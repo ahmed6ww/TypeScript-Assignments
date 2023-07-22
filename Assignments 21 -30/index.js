@@ -32,7 +32,7 @@ console.log(vegetable == `onion`);
 let car = `Audi`;
 console.log(`Is car =='Audi'? I predict true`);
 console.log(car == `Audi`);
-let actor = `Leonadro DiCaprio`;
+let actor = `Leonaro DiCaprio`;
 console.log(`Is actor =='Tom Cruise'? I predict false`);
 console.log(actor == `Tom Cruise`);
 let singer = `Ed Sheeran`;
