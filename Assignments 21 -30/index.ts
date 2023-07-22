@@ -48,7 +48,7 @@ let car=`Audi`
 console.log(`Is car =='Audi'? I predict true`)
 console.log(car==`Audi`);
 
-let actor=`Leonardo DiCaprio`
+let actor=`Leonaro DiCaprio`
 console.log(`Is actor =='Tom Cruise'? I predict false`)
 console.log(actor==`Tom Cruise`);
 
